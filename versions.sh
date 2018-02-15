@@ -2,13 +2,14 @@
 echo ''
 echo 'Component versions installed are:'
 echo ''
-echo -n 'Node:           '
+echo -n '  Node:           '
 node --version
-echo -n 'npm:            '
+echo -n '  npm:            '
 npm --version
-echo -n 'Docker:         '
+echo -n '  Docker:         '
 docker --version
-echo -n 'Docker Compose: '
+echo -n '  Docker Compose: '
 docker-compose --version
-echo -n 'Python:         '
+echo -n '  Python:         '
 python -V
+echo ''
