@@ -7,7 +7,8 @@ npm install -g yo
 npm install -g composer-playground
 
 sudo apt install unzip
-mkdir ~/fabric-tools && cd ~/fabric-tools
+mkdir ~/fabric-tools
+cd ~/fabric-tools
 curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.zip
 unzip fabric-dev-servers.zip
 
@@ -21,3 +22,8 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 
 ./downloadFabric.sh
+
+cd ~
+git clone -b master https://github.com/hyperledger/fabric-samples.git
+cd ~/fabric-samples
+curl -sSL https://goo.gl/6wtTN5 | bash
