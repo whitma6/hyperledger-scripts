@@ -27,3 +27,5 @@ cd ~
 git clone -b master https://github.com/hyperledger/fabric-samples.git
 cd ~/fabric-samples
 curl -sSL https://goo.gl/6wtTN5 | bash
+
+export PATH=~/fabric-samples/bin:$PATH
