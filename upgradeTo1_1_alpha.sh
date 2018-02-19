@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~
 
 #### Download/update to latest docker-compose
