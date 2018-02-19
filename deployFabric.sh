@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~
 sudo apt install python
 npm install -g composer-cli
