@@ -13,10 +13,11 @@ unzip fabric-dev-servers.zip
 
 sudo mkdir /etc/systemd/system/docker.service.d
 #sudo nano /etc/systemd/system/docker.service.d/http-proxy.conf
-sudo cat << EOF >> /etc/systemd/system/docker.service.d/http-proxy.conf
+sudo cat << EOF >> /tmp/http-proxy.conf
 [Service]
 Environment="HTTPS_PROXY=http://proxy.vici.verizon.com:80/"
 EOF
+sudo mv /tmp/http-proxy.conf /etc/systemd/system/docker.service.d/http-proxy.conf
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 ./downloadFabric.sh
