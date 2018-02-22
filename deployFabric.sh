@@ -9,6 +9,7 @@ npm install -g yo
 npm install -g composer-playground
 
 sudo apt install unzip
+sudo apt-get install zip
 mkdir ~/fabric-tools
 cd ~/fabric-tools
 curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.zip
