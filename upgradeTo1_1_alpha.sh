@@ -21,4 +21,6 @@ npm install -g composer-playground@next
 
 cd ~/fabric-tools
 export FABRIC_VERSION=hlfv11
+echo 'export FABRIC_VERSION=hlfv11' >> ~/.profile
+
 ./downloadFabric.sh
