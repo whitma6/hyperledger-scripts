@@ -31,3 +31,4 @@ cd ~/fabric-samples
 curl -sSL https://goo.gl/6wtTN5 | bash
 
 export PATH=~/fabric-samples/bin:$PATH
+echo 'PATH=~/fabric-samples/bin:$PATH' >> ~/.profile
