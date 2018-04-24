@@ -107,6 +107,8 @@ then
    sudo -E apt-get install -y python-minimal
 fi
 
+# Install JQ which is required for some of the tutorials
+sudo -E apt-get -y install jq
 
 # Print installation details for user
 echo ''
