@@ -33,3 +33,6 @@ curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
 
 export PATH=~/fabric-samples/bin:$PATH
 echo 'PATH=~/fabric-samples/bin:$PATH' >> ~/.profile
+
+export FABRIC_VERSION=hlfv11
+echo 'export FABRIC_VERSION=hlfv11' >> ~/.profile
