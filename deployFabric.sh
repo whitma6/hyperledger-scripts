@@ -24,12 +24,12 @@ sudo mv /tmp/http-proxy.conf /etc/systemd/system/docker.service.d/http-proxy.con
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 
-./downloadFabric.sh
+#./downloadFabric.sh
 
 cd ~
-git clone -b master https://github.com/hyperledger/fabric-samples.git
-cd ~/fabric-samples
-curl -sSL https://goo.gl/6wtTN5 | bash
+#git clone -b master https://github.com/hyperledger/fabric-samples.git
+#cd ~/fabric-samples
+curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0
 
 export PATH=~/fabric-samples/bin:$PATH
 echo 'PATH=~/fabric-samples/bin:$PATH' >> ~/.profile
