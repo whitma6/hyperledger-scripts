@@ -110,6 +110,9 @@ fi
 # Install JQ which is required for some of the tutorials
 sudo -E apt-get -y install jq
 
+# Install PostgreSQL (not required for Fabric, but used for Hyperledger Explorer project)
+sudo -E apt-get -y install postgresql postgresql-contrib
+
 # Print installation details for user
 echo ''
 echo 'Installation completed, versions installed are:'
