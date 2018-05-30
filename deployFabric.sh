@@ -8,6 +8,7 @@ npm install -g composer-rest-server
 npm install -g yo
 npm install -g composer-playground
 
+sudo apt install htop
 sudo apt install unzip
 sudo apt-get install zip
 #mkdir ~/fabric-tools
